@@ -1,0 +1,126 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.title-primary{
+    color: #FD6E0A;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.second-bg{
+    background-color: #FFF8F3;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.section-discription{
+    font-weight: 400;
+    font-size: 18px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 18px 35px 19px 36px;
+    border: none;
+    border-radius: 5px;
+}
+/* header style */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left ,right bottom;
+}
+
+/* Nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav a{ 
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px;
+}
+.banner-contant{
+    max-width:585px;
+    max-height:356px; ;
+}
+.banner-greetings{
+    font-weight:600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 82px;
+}
+.banner-discription{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner-profile-pic{
+
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about style */
+.about{
+    border-radius:10px;
+    padding:131px 156px;
+    text-align: center;
+    margin-top:130px ;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+.item-discription{
+    font-weight:bold ;
+    font-size:20px ;
+}
